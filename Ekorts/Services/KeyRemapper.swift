@@ -27,6 +27,10 @@ private func tapCallback(
         InputSourceMonitor.shared.isActive
     else { return Unmanaged.passRetained(event) }
 
+    if event.flags.contains(.maskShift) {
+        return Unmanaged.passRetained(event)
+    }
+
     let kc = event.getIntegerValueField(.keyboardEventKeycode)
     if let mapped = r.mode.swapMap[kc] {
         event.setIntegerValueField(.keyboardEventKeycode, value: mapped)
