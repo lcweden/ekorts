@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct EkortsApp: App {
+struct StrokeRemapApp: App {
     @StateObject private var monitor = InputSourceMonitor.shared
     @StateObject private var remapper = KeyRemapper.shared
     @StateObject private var permission = PermissionManager.shared

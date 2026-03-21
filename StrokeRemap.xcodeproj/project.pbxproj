@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F279CC192F6576AB008205E6 /* Ekorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ekorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F279CC192F6576AB008205E6 /* StrokeRemap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrokeRemap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F2A641F12F65BB81009BDD71 /* Exceptions for "Ekorts" folder in "Ekorts" target */ = {
+		F2A641F12F65BB81009BDD71 /* Exceptions for "StrokeRemap" folder in "StrokeRemap" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = F279CC182F6576AB008205E6 /* Ekorts */;
+			target = F279CC182F6576AB008205E6 /* StrokeRemap */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F279CC1B2F6576AB008205E6 /* Ekorts */ = {
+		F279CC1B2F6576AB008205E6 /* StrokeRemap */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F2A641F12F65BB81009BDD71 /* Exceptions for "Ekorts" folder in "Ekorts" target */,
+				F2A641F12F65BB81009BDD71 /* Exceptions for "StrokeRemap" folder in "StrokeRemap" target */,
 			);
-			path = Ekorts;
+			path = StrokeRemap;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		F279CC102F6576AB008205E6 = {
 			isa = PBXGroup;
 			children = (
-				F279CC1B2F6576AB008205E6 /* Ekorts */,
+				F279CC1B2F6576AB008205E6 /* StrokeRemap */,
 				F279CC1A2F6576AB008205E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		F279CC1A2F6576AB008205E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F279CC192F6576AB008205E6 /* Ekorts.app */,
+				F279CC192F6576AB008205E6 /* StrokeRemap.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F279CC182F6576AB008205E6 /* Ekorts */ = {
+		F279CC182F6576AB008205E6 /* StrokeRemap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F279CC242F6576AC008205E6 /* Build configuration list for PBXNativeTarget "Ekorts" */;
+			buildConfigurationList = F279CC242F6576AC008205E6 /* Build configuration list for PBXNativeTarget "StrokeRemap" */;
 			buildPhases = (
 				F279CC152F6576AB008205E6 /* Sources */,
 				F279CC162F6576AB008205E6 /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F279CC1B2F6576AB008205E6 /* Ekorts */,
+				F279CC1B2F6576AB008205E6 /* StrokeRemap */,
 			);
-			name = Ekorts;
+			name = StrokeRemap;
 			packageProductDependencies = (
 			);
-			productName = Ekorts;
-			productReference = F279CC192F6576AB008205E6 /* Ekorts.app */;
+			productName = StrokeRemap;
+			productReference = F279CC192F6576AB008205E6 /* StrokeRemap.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F279CC142F6576AB008205E6 /* Build configuration list for PBXProject "Ekorts" */;
+			buildConfigurationList = F279CC142F6576AB008205E6 /* Build configuration list for PBXProject "StrokeRemap" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F279CC182F6576AB008205E6 /* Ekorts */,
+				F279CC182F6576AB008205E6 /* StrokeRemap */,
 			);
 		};
 /* End PBXProject section */
@@ -268,8 +268,8 @@
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Ekorts/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Ekorts;
+				INFOPLIST_FILE = StrokeRemap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StrokeRemap;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -278,7 +278,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lcweden.Ekorts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcweden.StrokeRemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -302,8 +302,8 @@
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Ekorts/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Ekorts;
+				INFOPLIST_FILE = StrokeRemap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StrokeRemap;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +312,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lcweden.Ekorts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lcweden.StrokeRemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F279CC142F6576AB008205E6 /* Build configuration list for PBXProject "Ekorts" */ = {
+		F279CC142F6576AB008205E6 /* Build configuration list for PBXProject "StrokeRemap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F279CC222F6576AC008205E6 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F279CC242F6576AC008205E6 /* Build configuration list for PBXNativeTarget "Ekorts" */ = {
+		F279CC242F6576AC008205E6 /* Build configuration list for PBXNativeTarget "StrokeRemap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F279CC252F6576AC008205E6 /* Debug */,

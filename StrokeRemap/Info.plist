@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>NSAppleEventsUsageDescription</key>
-	<string>Ekorts 需要輔助使用權限來重映射鍵盤筆畫按鍵。</string>
+	<string>StrokeRemap 需要輔助使用權限來重映射鍵盤筆畫按鍵。</string>
 </dict>
 </plist>
