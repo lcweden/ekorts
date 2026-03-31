@@ -1,0 +1,13 @@
+{
+  "name": "StrokeRemap",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.22",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  }
+}
