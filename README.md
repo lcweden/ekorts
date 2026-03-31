@@ -47,11 +47,11 @@
 ## Installation
 
 > [!NOTE]
-> I am not going to pay for Apple Developer Program, so this app is unsigned. You can either build it from source or bypass macOS Gatekeeper for the pre-built binary.
+> This app is unsigned. You can either build it from source or bypass macOS Gatekeeper for the pre-built binary.
 
 ### Pre-built binary
 
-1. Download the latest release from the [Releases](https://github.com/lcweden/ekorts/releases) page.
+1. Download the latest release from the [Releases](https://github.com/lcweden/stroke-remap/releases) page.
 2. Open the downloaded `.app` file and drag to your Applications folder.
 3. First launch:
    - Try right-clicking (Control-click) `StrokeRemap.app` in Finder and choose **Open**.
